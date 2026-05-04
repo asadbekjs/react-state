@@ -26,6 +26,7 @@ const Counter2 = () => {
     >
       <span>{count}</span>
       <button onClick={handleIncrement}>Increment</button>
+      <button onClick={() => setCount(0)}>Reset</button>
       <button onClick={handleDecrement}>Decrement</button>
     </div>
   );
