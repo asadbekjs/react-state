@@ -2,6 +2,8 @@
 
 import Counter2 from "./components/counter2";
 import NameInput from "./components/name-input";
+import TagsInput from "./components/tags-input";
+import ToggleDemo from "./components/toggle-demo";
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       {/* <Counter1 /> */}
       <Counter2 />
       <NameInput />
+      <ToggleDemo />
+      <TagsInput />
     </div>
   );
 };
