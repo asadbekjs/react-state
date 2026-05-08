@@ -11,6 +11,7 @@ const Counter3 = () => {
   };
 
   // * previous state pattern
+  //   Qoida: Yangi state avvalgi state ga bog'liq bo'lsa — har doim prev ishlatilsin!
   const addThreeCorrect = () => {
     setCount((prev) => prev + 1);
     setCount((prev) => prev + 1);
