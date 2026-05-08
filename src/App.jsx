@@ -4,6 +4,7 @@ import Counter2 from "./components/counter2";
 import NameInput from "./components/name-input";
 import TagsInput from "./components/tags-input";
 import ToggleDemo from "./components/toggle-demo";
+import UserForm from "./components/user-form";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <NameInput />
       <ToggleDemo />
       <TagsInput />
+      <UserForm />
     </div>
   );
 };
