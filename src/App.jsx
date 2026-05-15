@@ -2,6 +2,7 @@
 
 import Counter2 from "./components/counter2";
 import Counter3 from "./components/counter3";
+import LikeButton from "./components/like-button";
 import NameInput from "./components/name-input";
 import TagsInput from "./components/tags-input";
 import ToggleDemo from "./components/toggle-demo";
@@ -18,6 +19,7 @@ const App = () => {
       <TagsInput />
       <UserForm />
       <Counter3 />
+      <LikeButton />
     </div>
   );
 };
